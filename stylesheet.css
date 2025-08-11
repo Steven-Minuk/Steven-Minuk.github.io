@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.about-content{
+    display: flex;                  /* makes text & image stay in one row */
+    align-items: flex-start;        /* align image with top of text */
+    gap: 20px;                      /* space between text and image */
+}
+
+.content {
+    flex: 1; /* text takes remaining space */
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+#minuk{
+    margin-right: 100px;
+    width: 400px;
+    height: 530px;
+    flex-shrink: 0;      /* prevent image from shrinking */
+    border: 3px solid yellow;
+    margin: 20px;
+    padding: 20px;
+}
+
+.hobby-content {
+    display: flex;              /* put text and image in one row */
+    align-items: flex-start;    /* align image with the top of the text */
+    gap: 20px;                  /* space between text and image */
+    margin-bottom: 20px;        /* space between hobbies */
+}
+
+.hobby-content img {
+    margin-right: 100px;
+    width: 300px;
+    height: auto;
+}
+
+.hobby-paragraph{
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#volleyballLink{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#golf-image{
+    width: 300px;
+    height: 530px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+#soccer-image{
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+#run-image{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+
+
+
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(246, 3, 64);
+    text-decoration: underline;
+}
